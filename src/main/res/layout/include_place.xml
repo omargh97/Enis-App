@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/small_margin">
+
+    <ImageView
+        android:id="@+id/iv_sub"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="H,375:190"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/meduim_padding"
+        android:layout_marginTop="@dimen/small_padding"
+
+        android:paddingStart="@dimen/small_padding"
+        android:text="Département Informatique"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/txt_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_sub" />
+
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/meduim_padding"
+        android:layout_marginTop="@dimen/meduim_padding"
+        android:layout_marginEnd="@dimen/meduim_padding"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingStart="@dimen/small_padding"
+        android:paddingEnd="@dimen/small_padding"
+        android:text="À propos du département"
+        android:textColor="@color/colorGreyText"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="@dimen/smaller_margin"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc"
+        app:srcCompat="@drawable/man" />
+
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="@dimen/smaller_margin"
+        android:text="Fadoua Drira"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/subTitle"
+        app:srcCompat="@drawable/phone" />
+
+
+    <TextView
+        android:id="@+id/phoneNb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="55787433"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle" />
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:srcCompat="@drawable/mail" />
+
+
+    <TextView
+        android:id="@+id/mailTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="fadoua.drira@enis.tn"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/mail"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <ImageView
+        android:id="@+id/function"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        app:srcCompat="@drawable/teamwork" />
+
+
+    <TextView
+        android:id="@+id/funName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Chef département"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/function"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+
+    <View
+        android:id="@+id/v_separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="@dimen/medium_margin"
+        android:layout_marginTop="@dimen/meduim_padding"
+        android:layout_marginEnd="@dimen/medium_margin"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorGrey02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/function" />
+
+    <ImageView
+        android:id="@+id/time2"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="@dimen/smaller_margin"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@id/v_separator"
+        app:srcCompat="@drawable/man" />
+
+
+    <TextView
+        android:id="@+id/subTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="@dimen/smaller_margin"
+        android:text="Mondher Hachicha"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/time2"
+        app:layout_constraintTop_toBottomOf="@id/v_separator" />
+
+    <ImageView
+        android:id="@+id/phone2"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/subTitle2"
+        app:srcCompat="@drawable/phone" />
+
+
+    <TextView
+        android:id="@+id/phoneNb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="98667451"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/subTitle2" />
+
+    <ImageView
+        android:id="@+id/mail2"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/phone2"
+        app:srcCompat="@drawable/mail" />
+
+
+    <TextView
+        android:id="@+id/mailTv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="mondher.hachicha@enis.tn"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/mail2"
+        app:layout_constraintTop_toBottomOf="@+id/phone2" />
+
+    <ImageView
+        android:id="@+id/function2"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/mail2"
+        app:srcCompat="@drawable/teamwork" />
+
+
+    <TextView
+        android:id="@+id/funName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Secrétaire"
+        android:textColor="@color/colorGre03"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toEndOf="@+id/function2"
+        app:layout_constraintTop_toBottomOf="@+id/mail2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

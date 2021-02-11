@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c07eb1</color>
+
+    <color name="colorPrimaryDark">#ff4d4d</color>
+    <color name="colorPurple">#ac8db9</color>
+    <color name="colorAccent">#ffcccc</color>
+    <color name="pale_blue">#e1e5eb</color>
+    <color name="pale_grey">#f4f6fa</color>
+    <color name="gunmetal">#434b5a</color>
+    <color name="white">#ffffff</color>
+    <color name="black_0">#00000000</color>
+    <color name="pale_grey_two">#ecf0f7</color>
+    <color name="black">#000000</color>
+    <color name="bluey_grey_two">#526ebe</color>
+    <color name="bluey_grey_three">#ff1a1a</color>
+    <color name="bluey_grey">#ffe6e6</color>
+    <color name="colorPink">#F3F0F3</color>
+    <color name="blue_circle">#ff0000</color>
+    <color name="graph_turquoise">#ffb3b3</color>
+    <color name="color_accent">#6cf0eb</color>
+    <color name="colorGrey01">#353235</color>
+    <color name="colorBlack">#020202</color>
+    <color name="colorGre03">#454545</color>
+    <color name="colorGrey02">#D8CCCCCE</color>
+    <color name="colorGreyText">#454545</color>
+    <color name="colorPurple02">#6D66C9</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00ff00</color>
+
+</resources>

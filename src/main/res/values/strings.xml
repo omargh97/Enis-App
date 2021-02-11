@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Enis App</string>
+    <string name="action_settings">Settings</string>
+    <string name="version">1.0</string>
+    <string name="mon_class">ENIS</string>
+    <string name="proc">Procedures</string>
+    <string name="map">ENIS Map</string>
+    <string name="quest">FAQ</string>
+    <string name="dde">Direction des études</string>
+    <string name="ed">Ecole Doctorale</string>
+    <string name="dds">Direction des Stages</string>
+    <string name="sg">Secrétariat Générale</string>
+    <string name="dep">Départements</string>
+    <string name="prem">1 ére année</string>
+    <string name="deux">2 éme année</string>
+    <string name="trois">3 éme année</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "338857695778",
+    "firebase_url": "https://enismaps-1447b.firebaseio.com",
+    "project_id": "enismaps-1447b",
+    "storage_bucket": "enismaps-1447b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338857695778:android:ac63655621fd2a5234487b",
+        "android_client_info": {
+          "package_name": "tn.enis.enismap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338857695778-iivbr6a7rfsqea6rt3pnidn9limkh6mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tn.enis.enismap",
+            "certificate_hash": "a8dcf202ba0800e3707ed8009a0ab32505307e8f"
+          }
+        },
+        {
+          "client_id": "338857695778-60v5r9cknnh6iiuq7g6q3t9kcrktnd6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYbw5h0ndS6gURNs9BrbtaF62hy_BDAo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338857695778-60v5r9cknnh6iiuq7g6q3t9kcrktnd6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

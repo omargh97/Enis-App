@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PrimaryButtonStyle" parent="Base.TextAppearance.AppCompat.Widget.Button">
+
+        <item name="android:padding">15dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ButtonVivasom" parent="PrimaryButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/stats_summary_button_height</item>
+        <item name="android:orientation">horizontal</item>
+
+        <item name="android:textColor">@color/bluey_grey_three</item>
+    </style>
+    <style name="ButtonSecondaryVivasom" parent="ButtonVivasom">
+        <item name="android:background">@drawable/button_vivasom_secondary_selector</item>
+    </style>
+    <style name="ButtonDarkBlueTextGreen" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">3dp</item>
+        <item name="backgroundTint">@color/bluey_grey</item>
+    </style>
+
+    <style name="ButtonVivasomPopupPrimary" parent="ButtonVivasom">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginStart">@dimen/button_vivasom_margin_side_narrow</item>
+        <item name="android:layout_marginEnd">@dimen/button_vivasom_margin_side_narrow</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="ButtonVivasomPopupSecondary" parent="ButtonSecondaryVivasom">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginStart">@dimen/button_vivasom_margin_side_narrow</item>
+        <item name="android:layout_marginEnd">@dimen/button_vivasom_margin_side_narrow</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+</resources>
